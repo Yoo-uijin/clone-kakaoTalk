@@ -29,7 +29,6 @@
   opacity: 0.6;
 }
 
-
 .open-post {
   display: flex;
   justify-content: space-between;
@@ -103,4 +102,33 @@
 
 .open-post__heart-count span {
   margin-left: 4px;
+}
+
+.open-post:last-of-type {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: var(--main-border);
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+
+  50% {
+    color: red;
+    transform: scale(1.4);
+  }
+
+  100% {
+    color: white;
+    transform: none;
+  }
+
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
