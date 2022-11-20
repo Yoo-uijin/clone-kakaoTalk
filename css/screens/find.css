@@ -106,6 +106,7 @@
 
 .open-post:last-of-type {
   margin-top: 20px;
+  margin-bottom: 80px;
   padding-top: 20px;
   border-top: var(--main-border);
 }

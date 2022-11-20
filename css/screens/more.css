@@ -3,8 +3,6 @@
   ;
 }
 
-
-
 .icon-openchat {
   display: flex;
   justify-content: flex-start;
@@ -12,6 +10,7 @@
 
 .more-suggestions {
   margin-top: 50px;
+  margin-bottom: 120px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
@@ -22,6 +21,7 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
